@@ -1,0 +1,13 @@
+apiVersion: 1
+
+providers:
+  - name: warrcloud
+    orgId: 1
+    folder: ""
+    type: file
+    disableDeletion: false
+    editable: true
+    allowUiUpdates: true
+    options:
+      # Grafana loads every *.json dashboard found under this path.
+      path: /etc/grafana/provisioning/dashboards

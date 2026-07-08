@@ -1,0 +1,8 @@
+fastapi>=0.115
+uvicorn[standard]>=0.30
+pydantic>=2.7
+langchain-core>=0.3
+langchain-anthropic>=0.3
+langchain-mcp-adapters>=0.1
+mcp>=1.9
+prometheus-fastapi-instrumentator>=7.0
